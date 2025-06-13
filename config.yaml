@@ -21,7 +21,7 @@ proxies:
     server: 192.3.86.122
     port: 18355
     cipher: aes-128-gcm
-    password: Cr4Rysp3SP4VIZJWsbyLGQQdNxfDMxGHk8OJzEfb827n
+    password: UXPyEaQV1BsD3gGbboSBTcXinR5xBYeorgNtvhcXuw6o
     udp: true
 
 proxy-groups:
