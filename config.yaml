@@ -19,9 +19,9 @@ proxies:
   - name: "Singapore-SS2022"
     type: ss
     server: 192.3.86.122
-    port:18355
-    cipher: chacha20-ietf-poly1305
-    password: Cr4Rysp3SP4VIZJWsbyLGQQdNxfDMxGHk8OJzEfb827n
+    port: 18355
+    cipher: chacha20-poly1305
+    password: r5NoIX3kPDB6pErS4bMCP0BXwqxLgM0UjuyQ4AAbcLEc
     udp: true
 
 proxy-groups:
