@@ -18,10 +18,10 @@ dns:
 proxies:
   - name: "Singapore-SS2022"
     type: ss
-    server: 192.124.176.237
-    port: 443
+    server: 192.3.86.122
+    port:18355
     cipher: chacha20-ietf-poly1305
-    password: b05P11PXT+BLOV+1dcY9XQ==
+    password: Cr4Rysp3SP4VIZJWsbyLGQQdNxfDMxGHk8OJzEfb827n
     udp: true
 
 proxy-groups:
@@ -192,5 +192,9 @@ rules:
   - DOMAIN-SUFFIX,zhimg.com,DIRECT
   - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
   - DOMAIN-SUFFIX,zoho.com,DIRECT
+  - DOMAIN-SUFFIX,zoho.com,DIRECT
+  - DOMAIN-SUFFIX,my.justhost.ru,DIRECT 
+  - DOMAIN-SUFFIX,paypal.com,DIRECT 
+  - DOMAIN-SUFFIX,my.racknerd.com,DIRECT 
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
